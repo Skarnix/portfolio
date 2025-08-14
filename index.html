@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudarshan Karn - Data Analyst Portfolio</title>
+    <meta name="description" content="Professional Data Analyst with expertise in Python, SQL, Machine Learning, and Business Intelligence">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">SK</div>
+            <div class="loading-text">Loading Portfolio...</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar responsive-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="gradient-text">SK</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section active">
+        <div class="container">
+            <div class="home-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="hello-text">Hello, I'm</span>
+                        <span class="name-text gradient-text">Sudarshan Karn</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Data Analyst & Business Intelligence Expert</h2>
+                    <p class="hero-description">
+                        Passionate data analyst specializing in transforming complex datasets into actionable business insights. 
+                        Expert in Python, SQL, Machine Learning, and advanced visualization tools including Tableau, Power BI, and Looker-Studio. 
+                        Proven track record in predictive modeling, process optimization, and building comprehensive data solutions.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="89">0</span>
+                            <span class="stat-label">% ML Model Accuracy</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="15">0</span>
+                            <span class="stat-label">+ Data Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="5">0</span>
+                            <span class="stat-label">+ Visualization Tools</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('projects')">
+                            <i class="fas fa-code"></i>
+                            View Projects
+                        </button>
+                        <a href="https://drive.google.com/file/d/1m8tRktvsWGGcYWCxn8dEOIx0oN5fvwOb/view?usp=sharing" target="_blank" class="btn btn-outline">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="workspace-container">
+                        <div class="desk">
+                            <!-- Large Monitor 1: Power BI Analytics -->
+                            <div class="monitor large-monitor-1">
+                                <div class="screen">
+                                    <div class="powerbi-dashboard">
+                                        <div class="powerbi-header">Power BI Analytics Dashboard</div>
+                                        <div class="powerbi-grid">
+                                            <div class="powerbi-card">
+                                                <div class="card-title">Revenue Performance</div>
+                                                <div class="mini-bar-chart"></div>
+                                                <div class="card-value">$2.4M</div>
+                                            </div>
+                                            <div class="powerbi-card">
+                                                <div class="card-title">Customer Analytics</div>
+                                                <div class="donut-chart"></div>
+                                                <div class="card-value">15.2K</div>
+                                            </div>
+                                            <div class="powerbi-card">
+                                                <div class="card-title">Market Growth</div>
+                                                <div class="progress-bar">
+                                                    <div class="progress-fill"></div>
+                                                </div>
+                                                <div class="card-value">89%</div>
+                                            </div>
+                                            <div class="powerbi-card">
+                                                <div class="card-title">ROI Analysis</div>
+                                                <div class="trend-line"></div>
+                                                <div class="card-value">+34%</div>
+                                            </div>
+                                            <div class="powerbi-card">
+                                                <div class="card-title">Conversion Rate</div>
+                                                <div class="mini-line-chart"></div>
+                                                <div class="card-value">12.8%</div>
+                                            </div>
+                                            <div class="powerbi-card">
+                                                <div class="card-title">User Engagement</div>
+                                                <div class="gauge-chart"></div>
+                                                <div class="card-value">4.7/5</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Large Monitor 2: Python Data Analysis -->
+                            <div class="monitor large-monitor-2">
+                                <div class="screen">
+                                    <div class="python-dashboard">
+                                        <div class="python-header">📊 dataanalysis.py - Analytics Dashboard</div>
+                                        <div class="python-content">
+                                            <div class="code-section">
+                                                <div class="code-line"><span class="keyword">import</span> <span class="module">pandas as pd</span></div>
+                                                <div class="code-line"><span class="keyword">import</span> <span class="module">numpy as np</span></div>
+                                                <div class="code-line"><span class="keyword">import</span> <span class="module">matplotlib.pyplot as plt</span></div>
+                                                <div class="code-divider"></div>
+                                                <div class="code-line"><span class="comment"># Data Analysis Results</span></div>
+                                                <div class="output-section">
+                                                    <div class="output-line">Dataset Shape: (15,847 rows × 23 columns)</div>
+                                                    <div class="output-line">Missing Values: 0.03%</div>
+                                                    <div class="output-line">Correlation Score: 0.847</div>
+                                                    <div class="output-line">Model Accuracy: 94.2%</div>
+                                                </div>
+                                            </div>
+                                            <div class="visualization-preview">
+                                                <div class="plot-container">
+                                                    <div class="plot-title">Sales Trend Analysis</div>
+                                                    <div class="plot-chart"></div>
+                                                </div>
+                                                <div class="stats-summary">
+                                                    <div class="stat-row">Mean Revenue: $847K</div>
+                                                    <div class="stat-row">Std Deviation: ±12.4%</div>
+                                                    <div class="stat-row">R-squared: 0.923</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Small Monitor 1: Tableau -->
+                            <div class="monitor small-monitor-1">
+                                <div class="screen">
+                                    <div class="tableau-dashboard">
+                                        <div class="tableau-header">Tableau Analytics</div>
+                                        <div class="kpi-cards">
+                                            <div class="kpi-card">
+                                                <div class="kpi-value">₹2.1M</div>
+                                                <div class="kpi-label">Sales</div>
+                                            </div>
+                                            <div class="kpi-card">
+                                                <div class="kpi-value">+18%</div>
+                                                <div class="kpi-label">Growth</div>
+                                            </div>
+                                        </div>
+                                        <div class="chart-mini">
+                                            <div class="mini-chart bar-chart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Small Monitor 2: Looker Studio -->
+                            <div class="monitor small-monitor-2">
+                                <div class="screen">
+                                    <div class="looker-dashboard">
+                                        <div class="looker-header">Looker Studio</div>
+                                        <div class="metric-cards">
+                                            <div class="metric-card">
+                                                <span class="metric-icon">👥</span>
+                                                <div class="metric-info">
+                                                    <span class="metric-value">24.5K</span>
+                                                    <span class="metric-label">Users</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="funnel-chart">
+                                            <div class="funnel-step" style="width: 100%;">Traffic</div>
+                                            <div class="funnel-step" style="width: 65%;">Leads</div>
+                                            <div class="funnel-step" style="width: 35%;">Sales</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Small Monitor 3: Google Sheets -->
+                            <div class="monitor small-monitor-3">
+                                <div class="screen">
+                                    <div class="sheets-dashboard">
+                                        <div class="sheets-header">Google Sheets</div>
+                                        <div class="spreadsheet-view">
+                                            <div class="sheet-row header-row">
+                                                <div class="cell">Product</div>
+                                                <div class="cell">Sales</div>
+                                            </div>
+                                            <div class="sheet-row">
+                                                <div class="cell">A</div>
+                                                <div class="cell text-green">$45K</div>
+                                            </div>
+                                            <div class="sheet-row">
+                                                <div class="cell">B</div>
+                                                <div class="cell text-green">$52K</div>
+                                            </div>
+                                        </div>
+                                        <div class="formula-bar">
+                                            <div class="formula-text">=SUM(B:B)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="floating-particles">
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="tel:+918434507008" class="social-link phone-link" title="Phone">
+                <i class="fas fa-phone"></i>
+            </a>
+            <a href="mailto:Sudarshankarn@gmail.com" class="social-link email-link" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sudarshan-karn" class="social-link linkedin-link" title="LinkedIn" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Skarnix" class="social-link github-link" title="GitHub" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Expertise across data analysis, visualization, and machine learning</p>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Data Analysis</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Excel</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Google Sheets</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>Visualization</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Tableau</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Power BI</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Looker-Studio</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Seaborn</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>Machine Learning</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">TensorFlow</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Keras</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Scikit-learn</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-business-time"></i>
+                        <h3>Business Intelligence</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Process Optimization</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Customer Insights</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SLAs Management</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <p class="section-subtitle">Building data-driven solutions across different industries</p>
+            
+            <div class="timeline">
+                <div class="timeline-item active" data-company="deep-cable">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="company-info">
+                                <h3>Elevolt by Deep Cable</h3>
+                                <p class="position">Tech Development Executive</p>
+                            </div>
+                            <div class="duration">Mar 2024 – Present</div>
+                        </div>
+                        <div class="achievements">
+                            <ul>
+                                <li>Developed and implemented an Inventory Management System (IMS) to streamline product tracking and optimize stock levels</li>
+                                <li>Engineered a Supplier Management System (SMS) to enhance vendor relationships and procurement processes</li>
+                                <li>Created a Flow Management System (FMS) to improve operational efficiency and workflow automation</li>
+                                <li>Designed interactive LookerStudio dashboards for real-time business intelligence and data visualization</li>
+                                <li>Built comprehensive Power BI dashboards for executive reporting and strategic decision-making</li>
+                                <li>Implemented an automated Attendance System to track and optimize workforce management</li>
+                                <li>Streamlined HR workflows through system integration and process automation</li>
+                                <li>Conducted data analysis to identify trends and provide actionable insights for business improvement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-company="amazon">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="company-info">
+                                <h3>Amazon</h3>
+                                <p class="position">Senior Customer Support Executive</p>
+                            </div>
+                            <div class="duration">Jul 2022 – Dec 2022</div>
+                        </div>
+                        <div class="achievements">
+                            <ul>
+                                <li>Resolved customer inquiries within established SLAs, resulting in a decrease in customer escalations by 35%</li>
+                                <li>Cultivated and maintained relationships with customers through effective communication, providing support to an average of 40 customers per shift and achieving a customer satisfaction rating of 95%</li>
+                                <li>Utilized available resources to identify and resolve customer issues, collaboratively working with internal teams to provide timely, accurate resolutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-company="urban-company">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="company-info">
+                                <h3>Urban Company, IENERGIZER</h3>
+                                <p class="position">Customer Support Executive</p>
+                            </div>
+                            <div class="duration">Aug 2021 – Jul 2022</div>
+                        </div>
+                        <div class="achievements">
+                            <ul>
+                                <li>Quickly addressed customer inquiries, achieving an average response time of 1 hour, and successfully tackled intricate technical issues</li>
+                                <li>Assisted customers with queries beyond the capabilities of the automated system, resulting in a 72% decrease in unresolved issues</li>
+                                <li>Led team in analyzing customer trends and requirements, resulting in a 25% decrease in issue resolution time</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Data science and analytics projects showcasing technical expertise</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Heart Disease Prediction</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Developed a machine learning model using TensorFlow and Keras to predict heart disease risk with high accuracy.
+                        </p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Utilized Seaborn for data visualization to gain insights into the dataset and understand patterns in heart disease occurrence</li>
+                                <li>Employed Scikit-learn for pre-processing, model evaluation, and fine-tuning to enhance predictive performance</li>
+                                <li>Achieved 89% prediction accuracy, enabling early identification of at-risk patients</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">Seaborn</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link single-link">
+                            <i class="fab fa-github"></i>
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>AirBnB Exploratory Data Analysis</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Comprehensive analysis to identify key factors affecting Airbnb listing success and pricing strategy.
+                        </p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Cleaned and analyzed data to understand its composition and identify key patterns using pandas and NumPy</li>
+                                <li>Visualized relationships between listing features through comprehensive charts and graphs using matplotlib</li>
+                                <li>Provided actionable insights and recommendations to optimize Airbnb listings for success</li>
+                                <li>Discovered that listings with professional photos saw 35% higher booking rates</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link single-link">
+                            <i class="fab fa-github"></i>
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-car-crash"></i>
+                        </div>
+                        <h3>Vehicle Accident Analysis</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Transformed complex accident data into actionable safety insights using Power BI for enhanced road safety initiatives.
+                        </p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Analyzed accident data in Power BI to identify patterns and trends for improving road safety</li>
+                                <li>Developed data-driven insights about accident causes (location, time, weather) for better decision-making</li>
+                                <li>Created interactive dashboards to empower users to explore accident data and inform safety initiatives</li>
+                                <li>Identified 5 high-risk locations accounting for 40% of serious accidents</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Data Visualization</span>
+                            <span class="tech-tag">Dashboard Design</span>
+                            <span class="tech-tag">Safety Analytics</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link single-link">
+                            <i class="fab fa-github"></i>
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's discuss how data can drive your business forward</p>
+            
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="form-error" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="form-error" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="form-error" id="subject-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="12" required></textarea>
+                            <span class="form-error" id="message-error"></span>
+                        </div>
+                        <button type="button" class="btn btn-primary submit-btn" onclick="sendEmail()">
+                            <span class="btn-text">
+                                <i class="fas fa-envelope"></i>
+                                Send via Email
+                            </span>
+                        </button>
+                        <div class="form-success" id="form-success">
+                            <i class="fas fa-check-circle"></i>
+                            Message sent successfully!
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 8434507008</p>
+                            <button class="copy-btn" onclick="copyToClipboard('+91 8434507008')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>Sudarshankarn@gmail.com</p>
+                            <button class="copy-btn" onclick="copyToClipboard('Sudarshankarn@gmail.com')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>www.linkedin.com/in/sudarshan-karn</p>
+                            <a href="https://www.linkedin.com/in/sudarshan-karn" target="_blank" class="external-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>github.com/Skarnix</p>
+                            <a href="https://github.com/Skarnix" target="_blank" class="external-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Sudarshan Karn. All rights reserved.</p>
+                <p>Built with passion for data and analytics</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/form.js"></script>
+    <script>
+        // Email functionality
+        function sendEmail() {
+            const form = document.getElementById('contactForm');
+            const formData = new FormData(form);
+            
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const subject = formData.get('subject');
+            const message = formData.get('message');
+            
+            // Create mailto link
+            const emailSubject = encodeURIComponent(`Portfolio Contact: ${subject}`);
+            const emailBody = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+            const mailtoLink = `mailto:Sudarshankarn@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+            
+            // Open email client
+            window.location.href = mailtoLink;
+            
+            // Show success message
+            document.getElementById('form-success').classList.add('show');
+            setTimeout(() => {
+                document.getElementById('form-success').classList.remove('show');
+            }, 3000);
+        }
+        
+        // Scroll to section function
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Copy to clipboard function
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Copied to clipboard!');
+            });
+        }
+    </script>
+</body>
+</html>
+
